@@ -25,6 +25,28 @@
     left: 915px;
     top: 35px;
 }
+.form-content{
+    position: relative;
+    width: 410px;
+    height:432px;
+}
+.form-content>div{
+    position: absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.account,.saoma{
+    width: 410px;
+    height:432px;
+}
+.saoma{
+    display: none;
+}
+/* .form-content>.account{
+    cursor: pointer;
+} */
 .text-nav{
     padding: 27px 0 24px;
     text-align: center;
@@ -32,21 +54,19 @@
     color: #666;
     height: 32px;
 }
-.text-nav>span{
+.text-nav>.active{
+    color:orange;   
+}
+.text-nav>.nav-name::after{
+    content: "";
     width: 1px;
     height: 24px;
     margin: 0 35px 0 42px;
     border: 1px solid #e0e0e0;
 }
-.text-nav>a{
+.text-nav a{
     color: #666;
     text-decoration: none;
-}
-.text-nav>.nav-select{
-    color: #f56600;
-}
-.text-nav>a:hover{
-    color: #f56600;
 }
 .text-input{
     height: 256.2px;
@@ -95,6 +115,9 @@
     text-decoration: none;
     color: rgb(153, 153, 153);  
 }
+.register-forget>a:hover{
+    color: #f56600;  
+}
 .register-forget>span{
     width: 8.43px;
     height: 16px;
@@ -103,7 +126,7 @@
 }
 .text-other{
     width: 348px;
-    height: 292px;
+    height: 97px;
     margin-right: auto;
     margin-left: auto;
     margin-top: 78px;
@@ -178,6 +201,31 @@
 }
 .a-vx{
     background: #00D20D;
+}
+.mask{      
+        width: 180px;
+        height: 180px;
+        margin-left: 114px;
+        margin-right: 114px;
+        margin-top: 102px;
+        border: 1px solid #c2ddb6;
+        background: #000;
+        color: #ff7e00;
+        text-align: center;
+        z-index: 110;   
+}
+.saoma-app{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 22px;
+    color: #666;
+}
+.saoma-app a{
+    text-decoration: none;
+    color: #666;
+}
+.saoma-app>.app{
+    color: #f56600;
 }
 .bottom{
     background: #fff;

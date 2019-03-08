@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../css/homework6.css">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
     <title>homework6</title>
 </head>
 <body>
@@ -17,39 +18,53 @@
     <div class="body">
         <div class="body-text">
             <div class="text-nav">
-                <a href="#" class="nav-select">账号登陆</a>
-                <span></span>
+                <a href="#" class="nav-name active">账号登陆</a>
                 <a href="#">扫码登陆</a>
             </div>
-            <div class="text-input">
-                <form>
-                    <input type="text" placeholder="邮箱/手机号码/小米ID">
-                    <input type="password" placeholder="密码" class="password">
-                    <button>登陆</button> 
-                </form>
-                <div class="register">
-                    <a href="#">手机短信登录/注册</a>                        
-                    <div class="register-forget">
-                        <a href="#">立即注册</a>
-                        <span></span>
-                        <a href="#">忘记密码?</a>
+            <div class="form-content">
+                <div class="account">
+                    <div class="text-input">
+                        <form>
+                            <input type="text" placeholder="邮箱/手机号码/小米ID">
+                            <input type="password" placeholder="密码" class="password">
+                            <button>登陆</button> 
+                        </form>
+                        <div class="register">
+                            <a href="#">手机短信登录/注册</a>                        
+                            <div class="register-forget">
+                                <a href="#">立即注册</a>
+                                <span></span>
+                                <a href="#">忘记密码?</a>
+                            </div>
+                        </div>
                     </div>
+                    <div class="text-other">
+                        <div>
+                            <div class="line"></div>
+                            <div class="other-title"><a href="#">其他方式登录</a></div>
+                            <div class="line"></div>
+                        </div>
+                        <div class="iconf">
+                            <a href="#" class="a-qq"><i class="qq"></i></a>
+                            <a href="#" class="a-vb"><i class="vb"></i></a>
+                            <a href="#" class="a-zb"><i class="zb"></i></a>
+                            <a href="#" class="a-vx"><i class="vx"></i></a>
+                        </div> 
+                    </div> 
                 </div>
-            </div>
-            <div class="text-other">
-               <div>
-                   <div class="line"></div>
-                   <div class="other-title"><a href="#">其他方式登录</a></div>
-                   <div class="line"></div>
-               </div>
-               <div class="iconf">
-                    <a href="#" class="a-qq"><i class="qq"></i></a>
-                    <a href="#" class="a-vb"><i class="vb"></i></a>
-                    <a href="#" class="a-zb"><i class="zb"></i></a>
-                    <a href="#" class="a-vx"><i class="vx"></i></a>
+                <div class="saoma">
+                    <div class="mask">
+                        <img src="../images/saoma.png" alt="">
+                    </div>
+                    <div class="saoma-app">
+                        <a href="#">使用</a>
+                        <a href="#" class="app">小米商城APP</a>
+                        <a href="#">扫一扫</a>
+                        <p>小米手机可打开「设置」&gt;「小米帐号」扫码登录</p>
+                    </div>
                 </div> 
-            </div>
-        </div>
+            </div> 
+        </div>    
     </div>
     <div class="bottom">
         <div class="bottom-area">
@@ -68,5 +83,12 @@
     <div class="nav-total">
         <a href="../index.html">返回目录</a>
     </div>
+    <script>
+        $(".text-nav a").click(function(){
+            $(this).addClass("active").siblings().removeClass("active");
+            console.log($(this).index())                
+            $(".form-content>div").eq($(this).index()).show().siblings().hide()
+        })
+    </script>
 </body>
 </html>
