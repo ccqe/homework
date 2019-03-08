@@ -1,0 +1,66 @@
+*{margin: 0;padding: 0}
+        .container{
+            background: url('images/eat1.jpg');
+        }
+        .head{
+            color:white;
+            background-color: pink;
+            text-align: center;
+            line-height: 50px;
+        }
+        .box{
+            background: rgb(247, 176, 168);
+            width: 420px;
+            margin-left: auto;
+            margin-right: auto;
+            padding:10px 0;
+        }
+        .text{
+            width: 300px;
+            line-height: 30px;
+        }
+        .seek{
+            color:rgb(253, 123, 108);
+            width: 80px;
+            line-height: 30px;
+            border: 2px salmon solid;
+            background-color: rgb(247, 176, 168)
+        }
+        .about{
+            padding: 10px;
+            color: rgb(136, 60, 73);
+            line-height: 50px;
+        }
+        .img{
+            width: 420px;
+            padding: 10px 0;
+        }
+        ul{
+            padding: 10px;
+            list-style: none;
+        }
+        li{
+            padding: 10px;
+            color: rgb(88, 4, 48);
+        }
+        .nav{
+            background: rgb(252, 229, 233);
+            line-height: 20px;
+            padding: 10px 0;
+            margin-left: auto;
+            margin-right: auto;
+            width:420px;
+        }
+        .nav>a{
+            color:rgb(238, 115, 197);
+            margin: 0 30px;
+        }
+        .box>a{
+            text-decoration: none;
+        }
+        .box>a:link{
+            color: #a25768;
+        }
+        .box>a:visited{
+            color:#ec6d71;
+        }

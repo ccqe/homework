@@ -1,0 +1,412 @@
+*{margin: 0;padding: 0}
+        .title{
+            height: 60px;
+            background: #1abebf url('../images/logo.png') no-repeat center center;
+        }
+        .content{
+            background: #f3f3f3;
+            height: 50px;
+        }
+        .position{
+            position: absolute;
+            left: 300px;
+            margin-right: auto;
+            margin-left: auto;
+            width: 80px;
+            line-height: 50px; 
+            font-size: 10px;
+        }
+        .position>a{
+            text-decoration: none;
+            color: #333333;
+            width: 34px;
+        }
+        .nav{
+            position: absolute;
+            left: 550px;
+        }
+        .nav>li{
+            float: left;
+            width: 110px;
+            text-align: center;
+            list-style: none;
+            line-height: 50px;
+            
+        }
+        .nav>li:hover{
+            background: #dcdddd;
+        }
+        .nav>li>a{
+            display: block;
+            color: #333333;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .user{
+            display: inline-block;
+            width: 60px;
+            line-height: 50px; 
+            position: absolute;
+            right: 300px; 
+            font-size: 10px;
+        }
+        .user>a{
+            text-decoration: none;
+            color: #333333;
+            
+        }
+        .nav-material{
+            width: 935px;
+            line-height: 50px;
+            font-size: 14px;
+            margin-left: 300px;
+        }
+        .nav-material>a{
+            text-decoration: none;
+            color: #333333;
+        }
+        .classify{
+            margin-left: 300px;
+            width: 935px;
+            background: #f3f3f3;
+            padding: 20px 0;
+        }
+        .family,.type,.quality{
+            margin-bottom: 20px;
+        }
+        .classify>div>a{
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 14px;
+            color: #333333;
+            border: 2px solid #f3f3f3;
+        }
+        .classify>div>.h{
+            color: #1abebf;
+        }
+        .classify>div>a:focus{
+            border: 2px solid orange;
+            background: white;
+        }
+        .seek-seek{
+            border:1px solid #eee;
+            width:260px;
+            height:20px;
+            position: relative;
+            margin-left: 50px;
+            margin-top: 14.5px;
+        }
+        .seek-seek>button{
+            position: absolute;
+            right:0;
+            top:0;
+            width: 60px;
+            height:20px;
+            border:none;
+            background: #fff;
+            
+        }
+        .seek-seek>button>i{
+            position: absolute ;
+            left:0px;
+            top:0px;  
+        }
+        .seek-seek>button>span{
+            position: absolute ;
+            right:10px;
+            top:0px;  
+        }
+        .seek-seek>input{
+            position: absolute;
+            left:0;
+            top:0;
+            width:200px;
+            height:20px;
+            border:none;
+            box-sizing: border-box;
+            outline: none;
+        }
+        .seek{
+            margin-top: 20px;
+            margin-left: 300px;
+            width: 935px;
+            background: #f3f3f3;
+            overflow: hidden;
+            font-size: 12px;
+            height: 50px;
+        }
+        .pulish,.seek-seek{
+            line-height: 50px;
+            float: left;
+            margin-right: 20px;
+        }
+        .pulish>a{
+            text-decoration: none;
+            color: #333333;
+            margin-left: 10px;
+        }
+        .problem{
+            float:right;
+            padding: 0 10px;
+            line-height: 50px;
+            color:#1abebf;
+            font-size: 15px;
+        }
+        .problem>a{
+            text-decoration: none;
+            color: #1abebf;
+            font-size: 14px;
+        }
+        .container{
+            width:935px;
+            margin-top: 20px;
+            margin-left:300px;
+            overflow: hidden;
+        }
+        .container>div{
+            width:220px;
+            height:320px;
+            box-sizing: border-box;
+            border:1px solid #eae5e3;
+            float:left;
+            background: #f3f3f3;
+        }
+        .container>div>.big{
+            color: #1abebf;
+            font-size: 15px;
+            margin-top: 10px;
+        }
+        .container>div>.small-select{
+            font-size: 12px;
+            color: orange;
+        }
+        .container>div>.big-select{
+            font-size: 15px;
+            color: orange;
+            margin-top: 10px;
+        }
+        .small{
+            font-size: 12px;
+        }
+        .big{
+            font-size: 15px;
+        }
+        .container>div:hover{
+            color: orange;
+        }
+        .container>div:not(:last-child){
+            margin-right:18.3333px;
+        }
+        .container>div>img{
+            width: 198px;
+            padding: 10px;
+        }
+        .container>div>p{
+            color: #333333;
+            float: left;
+            margin: 0 10px;
+            font-size: 12px;
+        }
+        .big-select{
+            float: left;
+            margin-left: 10px;
+        }
+        .big{
+            float: left;
+            margin-left: 10px;
+        }
+        .big-c{
+           color: #1abebf;
+           font-size: 13px;
+           text-decoration: none;
+        }
+        .big-cselect{
+            color: orange;
+           font-size: 13px;
+           text-decoration: none;
+        }
+        .page{
+            margin-left: 300px;
+            margin-top: 20px;
+            width: 935px;
+            overflow: hidden;
+        }
+        .page *{
+            float: left;
+        }
+        .page-page{
+            padding: 0 10px;
+            background: #e5e4e6;
+            outline: none;
+            width: 100px;
+            height: 30px;
+            border: none;
+            margin-right: 30px;
+        }
+        .page>div{
+            width: 150px;
+            height: 30px;
+            margin-right: 20px;
+        }
+        .page>div>a{
+            text-decoration: none;
+            margin-right: 20px;
+            text-align: center;
+            color: #333333;
+            line-height: 30px;
+        }
+        .page>p{
+            line-height: 30px;
+        }
+        .page>div>a:focus{
+            text-decoration: underline;
+            color: orange;
+        }
+        .page>input{
+            border: 2px solid #333333;
+            line-height: 30px;
+            width: 30px;
+            margin: 0 5px;
+        }
+        .page-p{
+            margin-right: 30px;
+        }
+        .sure{
+            padding: 0 10px;
+            background: orange;
+            outline: none;
+            width: 100px;
+            height: 30px;
+            border: none;
+            margin-right: 30px;
+            color: white;
+        }
+        .advise{
+            height: 82px;
+            margin-left: 300px;
+            margin-top: 20px;
+            padding: 0 0 0 10px;
+        }
+        .advise>div{
+            float: left;
+            margin-left: 20px;
+        }
+        .advise>div>ul{
+            list-style: none;
+            font-size: 14px;
+        }
+        .advise>div>ul>li>a{
+            font-size: 18px;
+            text-decoration: none;
+            color:#1abebf;
+            display: block;
+            margin-bottom: 20px;
+        }
+        .advise>img{
+            float: left;
+            border: 1px solid rgb(221, 221, 221);
+        }
+        .bottom{
+            background: rgb(124, 124, 124);
+            margin-top: 20px;
+        }
+        .about{
+            margin-left: 300px;
+            padding: 20px 10px;
+            color: white;
+            overflow: hidden;
+        }  
+        .about>div{
+            float: left;
+        }
+        .home{
+            width: 350px;
+        }
+        .home>img{
+            margin-bottom: 10px;
+        }
+        .home>.pone{
+            font-size: 15px;
+            margin:5px 0;
+        }
+        .home>.ptwo{
+            font-size: 12px;
+            margin:5px 0;
+        }
+        .us{
+            width: 100px;
+            margin-left: 100px;
+        }
+        .us>ul{
+            list-style: none;
+        }
+        .us>ul>li{
+            padding: 10px;
+            font-size: 12px;
+        }
+        .explain{
+            width: 100px;
+            margin-left: 50px;
+        }
+        .explain>ul{
+            list-style: none;
+        }
+        .explain>ul>li{
+            padding: 10px;
+            font-size: 12px;
+        }
+        .photo{
+            width: 120px;
+            margin-left: 50px;
+        }
+        .photo>ul{
+            list-style: none;
+        }
+        .photo>ul>li{
+            font-size: 12px;
+            line-height: 36px;
+        }
+        .photo img{
+            height:16px;
+        }
+        .photo a{
+            text-decoration: none;
+            color: white;
+        }
+        .line{
+            margin-left: 300px;
+            height: 0.5px;
+            width: 935px;
+            background: white;
+        }
+        .compay{ 
+            margin-left: 300px;
+            padding: 20px 10px;
+            width: 915px;
+            color: white;
+            overflow: hidden;
+        }
+        .compay>a{
+            text-decoration: none;
+            color: white;
+            font-size: 12px;
+        }
+        .company,.intert{
+            float: left;
+            color: white;
+            margin-right: 20px;
+            font-size: 12px;
+        }
+        .call{
+            float: right;
+        }
+        .nav-total{
+            line-height: 20px;
+            padding: 10px 0;
+            margin-left: auto;
+            margin-right: auto;
+            width:300px;
+        }
+        .nav-total>a{
+            margin: 0 30px;
+        }

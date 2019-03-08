@@ -1,0 +1,58 @@
+*{margin: 0;padding: 0}
+        .head{
+            color: white;
+            background-color: pink;
+            text-align: center;
+            line-height: 50px;
+        }
+        .box{
+            margin-left: auto;
+            margin-right: auto;
+            width: 360px;
+        }
+        .title{
+            line-height: 50px;
+        }
+        .title:hover{
+            color: beige;
+            cursor: pointer;
+        }
+        .content:hover{
+            color:pink;
+            cursor: pointer;
+        }
+        .about{
+            line-height: 30px;
+        }
+        .about:hover{
+            color: beige;
+            cursor: pointer;
+        }
+        li{
+            margin-top: 10px;
+        }
+        li:hover{
+            color: pink;
+            cursor: pointer;
+        }
+        dt,dd{
+            margin-top: 10px;
+        }
+        dt:hover{
+            color: pink;
+            cursor: pointer;
+        }
+        dd:hover{
+            color: pink;
+            cursor: pointer;
+        }
+        .nav-total{
+            line-height: 20px;
+            padding: 10px 0;
+            margin-left: auto;
+            margin-right: auto;
+            width:360px;
+        }
+        .nav-total>a{
+            margin: 0 30px;
+        }

@@ -1,0 +1,97 @@
+*{margin: 0;padding: 0}
+        .head{
+            color:white;
+            background-color: pink;
+            text-align: center;
+            line-height: 50px;
+        }
+        .box{
+            margin-left: auto;
+            margin-right: auto;
+            width: 658px;
+            background-color: rgb(252, 229, 233)
+        }
+        .box>img{
+            width: 658px;
+            transition: transform 1s;
+        }
+        .box>img:hover{
+            transform: scale(2);
+        }
+        .title{
+            color: rgb(238, 115, 197);
+            padding:10px;
+            text-align: center;
+        }
+        .title:hover{
+            color: rgb(218, 200, 203);
+            cursor: pointer;
+        }
+        .container{
+            background: url('images/beijing1.jpg');
+        }
+        .content{
+            color: rgb(206, 21, 129);
+            text-indent: 20px;
+        }
+        .content:hover{
+            color: pink;
+            cursor: pointer;
+        }
+        .about{
+            color: rgb(175, 54, 135);
+            padding: 10px;
+        }
+        .about:hover{
+            color: rgb(180, 143, 165);
+            cursor: pointer;
+        }
+        ul{
+            padding: 10px;
+        }
+        li{
+            padding: 10px;
+            color: rgb(112, 21, 74);
+        }
+        li:hover{
+            color: rgb(167, 52, 123);
+        }
+        .talk,.say{
+            color: pink;
+            padding: 10px;
+        }
+        .talk:hover{
+            color: white;
+            cursor: pointer;
+        }
+        .say:hover{
+            color: white;
+            cursor: pointer;
+        }
+        .nav{
+            background: rgb(252, 229, 233);
+            line-height: 20px;
+            padding: 10px 0;
+            margin-left: auto;
+            margin-right: auto;
+            width:658px;
+        }
+        .nav>a{
+            color:rgb(238, 115, 197);
+            margin: 0 30px;
+        }
+        
+        .bottom{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            background: rgb(252, 229, 233);
+            width: 658px;
+        }
+        .bottom>img{
+            width: 658px;
+            transition: transform 1s;
+        }
+        .bottom>img:hover{
+            transform: scale(2);
+        }
