@@ -1,0 +1,71 @@
+*{margin: 0;padding: 0}
+.user-center-page{
+    background-color: #EBEBEB;
+    position: relative;
+    height: 130px;
+    border: 1px solid #E8E8E8;
+}
+.user-center-page>div{
+    float: left;
+    position: absolute;
+}
+.user-center-page a{
+    text-decoration: none;
+    color: #1AC0C0;
+}
+.user-center-page img{
+    position: absolute;
+}
+.user-center-page::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.user-us{
+    top: 20%;
+    left: 140px;
+}
+.binding-wx{
+    top: 35%;
+    left: 380px;
+    font-size: 13px;
+}
+.binding-ph{
+    top: 35%;
+    left: 580px;
+    font-size: 13px;
+}
+.wx{
+    left: 330px;
+    top: 34%;
+}
+.ph{
+    left: 530px;
+    top: 34%;
+}
+.line{
+    height: 90px;
+    width: 1px;
+    border-right: 1px solid #CECECE;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.name{
+    font-size: 18px;
+}
+.points{
+    padding-top: 13px;
+}
+.score{
+    padding-left: 20px;
+}
+.message{
+    padding-left: 15px;
+}
+.user-img{
+    width: 100px;
+    height: 100px;
+    left: 20px;
+    top: 50%;
+    margin-top: -55px;
+}

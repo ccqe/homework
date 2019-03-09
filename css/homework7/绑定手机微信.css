@@ -1,0 +1,96 @@
+*{margin: 0;padding: 0}
+.change-password{
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 50px;
+    border-bottom: 2px dotted #DCDCDC ;
+    text-align: center;
+    margin-top: 30px;
+}
+.change-password p{
+    width: 100px;
+    line-height: 25px;
+    padding: 5px 0;
+    border-left: 4px solid #1AC0C0;
+    margin-left: 30px;
+    font-size: 18px;
+}
+.change-ph{
+    width: 450px;
+    height: 70px;
+    margin-top: 22px;
+    border: 1px solid #DCDCDC;
+    border-left: 2px solid #DCDCDC;
+    border-right: 2px solid #DCDCDC;
+    background-color: white;
+    position: relative;
+    left: 50%;
+    margin-left: -320px;
+    font-size: 13px;
+}
+.change-ph img{
+    position: absolute;
+    top: 18%;
+    left: 10px;
+}
+.bd-ph{
+    position: absolute;
+    top: 16%;
+    left: 70px;
+}
+.nbd-ph{
+    position: absolute;
+    top: 52%;
+    left: 70px;
+}
+.change-ph button{
+    width: 85px;
+    height: 36px;
+    background-color: #FEA700;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -18px;
+    right: 50px;
+}
+.change-wx{
+    width: 450px;
+    height: 70px;
+    margin-top: 22px;
+    border: 1px solid #DCDCDC;
+    border-left: 2px solid #DCDCDC;
+    border-right: 2px solid #DCDCDC;
+    background-color: white;
+    position: relative;
+    left: 50%;
+    margin-left: -320px;
+    font-size: 13px;
+}
+.change-wx img{
+    position: absolute;
+    top: 30%;
+    left: 18px; 
+}
+.bd-wx{
+    position: absolute;
+    top: 18%;
+    left: 70px;
+}
+.nbd-wx{
+    position: absolute;
+    top: 52%;
+    left: 70px;
+}
+.change-wx button{
+    width: 85px;
+    height: 36px;
+    background-color: #FEA700;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -18px;
+    right: 50px;
+}
