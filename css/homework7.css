@@ -135,7 +135,7 @@ iframe{
     background-color: #F0F0F0;
 }
 .bottom{
-    height: 248px;
+    height:220px;
     background-color: #515151;
     margin-top: 50px;
     color: #CBCBCB;
@@ -150,7 +150,7 @@ iframe{
     font-size: 14px;
 }
 .home{
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 10px;
 }
 .home-p{
@@ -159,20 +159,29 @@ iframe{
     color: white;
     font-size: 15px;
 }
+.home>:not(.home-p){
+    font-size: 13px;
+}
 .about{
-    margin-left: 110px;
-    margin-top: 70px;
+    margin-left: 100px;
+    margin-top: 25px;
+    font-size: 13px;
 }
 .us{
-    margin-left: 80px;
-    margin-top: 70px;
+    margin-left: 100px;
+    margin-top: 25px;
+    font-size: 13px;
 }
 .shop{
-    margin-left: 120px;
-    margin-top: 50px;
+    margin-left: 100px;
+    margin-top: 25px;
+    font-size: 13px;
 }
 .about>p,.us>p,.shop>p{
-    padding: 4px;
+    padding: 10px;
+}
+.shop img{
+    height:16px;
 }
 .about-us:after{
     content: "";
