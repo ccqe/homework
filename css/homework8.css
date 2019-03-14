@@ -11,6 +11,9 @@
     margin-right: 260px;   
     overflow: hidden;
 }
+.topbar a:hover{
+    color: orangered
+}
 .topbar-nav{
     float: left;
 }
@@ -89,7 +92,7 @@
     border-left: none;
     background: #ffffff;
     position:absolute;
-    left:312px;
+    left:310px;
     top:0;
 }
 .btn-shop{
@@ -508,11 +511,10 @@
     padding-bottom: 10px;
 }
 .passageway-buy{
-    color: red;
     margin-top: 40px;
 }
-.specials>.passageway-buy>a{
-    color: red;
+.specials>.passageway>a:hover{
+   color: orangered;
 }
 .recharge a{
     text-decoration: none;
@@ -628,12 +630,18 @@
 .footer-help{
     overflow: hidden;
 }
+.footer-help a:hover{
+    color: orangered;
+}
 .footer-list{
     border-top: 1px solid #dcdddd; 
     width: 999.2px;
     font-size: 10px;
     text-align: center;
 } 
+.footer-list a:hover{
+    color: orangered;
+}
 .footer-list a{
     text-decoration: none;
     color: #666;
@@ -641,6 +649,7 @@
 .footer-list span{
     margin-right: 3px;
     margin-left: 3px;
+    color: #dcdddd;
 }
 .mi-internet{
     font-size: 10px;
