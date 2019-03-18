@@ -145,7 +145,6 @@
 /* about start */
 .about-company{
     display: none;
-    margin-bottom: 30px;
 }
 .about{
     width: 80%;
@@ -216,6 +215,7 @@
 	background-color:#ddd;
 	text-align: center;
     color:#666;
+    margin-top: 30px;
 }
 .bottomer .bottomer-logo{
 	margin-bottom: 16px;
