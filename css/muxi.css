@@ -9,6 +9,7 @@
 .toper>.navbar{
     border-color: white;
     background-color:white;
+    margin-bottom: 0;
 }
 .navbar-default>.navbar-header>.navbar-toggle{
     margin-top: 22px;
@@ -34,8 +35,8 @@
     border-bottom: 2px solid #2dae36 ;
 }
 .select{
-    color: #2dae36 !important;
-    border-bottom: 2px solid #2dae36 !important;
+    color: #2dae36 ;
+    border-bottom: 2px solid #2dae36 ;
 }
 .navbar-brand{
     display: block;
@@ -200,7 +201,7 @@
 /* center-section end */
 
 /* bottomer start */
-.bottomer .container{
+.bottomer-container{
     margin-left: auto;
     margin-right: auto;
     padding-left: 10%;
@@ -260,7 +261,7 @@
         margin-bottom: 8px;
     }
     .bottomer .copyright{
-        text-align: left !important;
+        text-align: left;
     }
     .bottomer .contact{
         text-align: left;
